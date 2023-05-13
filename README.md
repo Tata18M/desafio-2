@@ -1,9 +1,9 @@
-# Desafio-2
- Desafio 2 - Criando Página HTML
+# Desafio 2 -  Criando Página HTML  &#128512;
+<meta charset="UTF-8">
 
-Neste desafio o objeitov era criar um site "quase" completo.
+Neste desafio o objeitvo era criar um site "quase" completo.
 
-A página tinha que seguir um padrão pré-definido:
+A página tinha que seguir o padrão pré-definido abaixo:
 
 ![Estrutura](https://i.stack.imgur.com/9jI6f.gif)
 
