@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="brl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avaliação</title>
+    <link rel="stylesheet" href="base.css">
+    <link rel="shortcut icon" href="src/icons8-estrela-16.png" type="image/x-icon" />
+    <style>
+        .row {
+            margin:5px;
+        }
+        label{
+            width: 100px;
+            text-align: right;
+            display:inline-block;
+            padding-right: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <h1>Menu</h1>
+            <ul>
+                <li><a href="template.html">Página Inicial</a></li>
+                <li><a href="sobre-a-clinica.html">Sobre a clínica</a></li>
+                <li><a href="atendimento.html">Atendimento</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="avaliação.html">Avaliação</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <!-- Aqui vai o seu header -->
+                <img src="src/clinica-logo.jpg" alt="Logo" width="90">
+            </div>
+
+            <hr>
+    
+            <div class="content">
+                <!-- Aqui vai o seu conteúdo -->
+                <h1>Deixe sua Avaliação</h1>
+                <h4>Deixe sua avaliação preenchendo o formulário abaixo:</h4>
+                <hr>
+                <br>
+                <div class="row">
+                <form action="#" method="post">
+                    <label>Nome:</label><input type="text" name="name"/><br>
+                    <label>Idade:</label><input type="number" name="age" min="0" max="99"/><br>
+                    <label>Nota:</label>
+                    <select name="role" id="">
+                        <option value="">Selecione uma nota</option>
+                        <option value="ruim">Ruim</option>
+                        <option value="regular">Regular</option>
+                        <option value="bom">Bom</option>
+                        <option value="excelente">Excelente</option>
+                    </select><br>
+                    <label>Comentários:</label>
+                    <textarea name="Comentários" id="" cols="30" rows="5"></textarea><br>
+                </div>
+                <div class="buttons">
+                    <button type="submit">Enviar</button>
+                    <button type="menu">
+                        <a href="template.html">Voltar</a>
+                    </button>
+                </div>
+            </div>
+
+            <hr>
+    
+            <div class="footer">
+                <h1>Contatos</h1>
+                <!-- Aqui vai o seu rodapé -->
+                <ul>
+                    <li>
+                        <a href="#">(11) 4127-1839</a>
+                        <img src="src/icons8-whatsapp (1).svg" alt="Telefone">
+                    </li>
+                    <li>
+                        <a href="#">Rua José Bonifácio 590, São Bernardo do Campo, SP, 09721-161</a>
+                        <img src="src/icons8-google-maps.svg" alt="Google maps">
+                    </li>
+                </ul>
+                <div>
+                    <iframe width="800" height="300" frameborder="0" src="https://www.bing.com/maps/embed?h=300&w=800&cp=-23.717900334106403~-46.565208435058594&lvl=15&typ=d&sty=r&src=SHELL&FORM=MBEDV8" scrolling="no">
+                    </iframe>
+                    <div style="white-space: nowrap; text-align: center; width: 800px; padding: 6px 0;">
+                       <a id="dirMapLink" target="_blank" href="https://www.bing.com/maps/directions?cp=-23.717900334106403~-46.565208435058594&amp;sty=r&amp;lvl=15&amp;rtp=~pos.-23.717900334106403_-46.565208435058594____&amp;FORM=MBEDLD">Obter Trajeto</a>
+               </div>
+               </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
